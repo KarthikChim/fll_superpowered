@@ -1,0 +1,101 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1" 
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 218 130"><style>
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word;
+}
+.blocklyPath {
+  stroke-width: 1px;
+}
+.blocklyText {
+  fill: rgb(255, 255, 255);
+  font-family: "Chalet", "Arial", sans-serif;
+  font-size: 12pt;
+  font-weight: 700;
+}
+.blocklyDropdownText {
+  fill: rgb(255, 255, 255) !important;
+}
+.blocklyNonEditableText > text, .blocklyEditableText > text {
+  fill: rgb(87, 94, 117);
+}
+.scratchCommentForeignObject {
+  background-color: #fff9d9;
+}
+.scratchCommentTextarea {
+  color: #a9983e;
+  background-color: #fff9d9;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.scratchCommentText {
+  font-size: 12pt;
+  fill: #fff9d9;
+  font-family: "Chalet", "Arial", sans-serif;
+}
+.scratchCommentBody {
+  background-color: #fff9d9; }
+.scratchCommentTopBar {
+  fill: #fff2ae;
+  fill-opacity: 0.1}
+.scratchCommentRect {
+  fill: #fff2ae; }
+.scratchWorkspaceCommentBorder {
+  stroke: #fff2ae; }
+.scratchCommentTopBar ~ use, .scratchCommentTopBar ~ image {
+  opacity: 0.4; }
+.scratchCommentTarget {
+  display: none;
+}
+.scratchCommentResizeSE, .scratchCommentResizeSW {
+  fill: transparent;
+}
+.blocklyResizeLine {
+  stroke: #888;
+  stroke-width: 1;
+}
+g[data-category^='doodle'] > path {
+  fill: white;
+  stroke-width: 2;
+  stroke-dasharray: 6;
+}
+g[data-category^='doodle-'] > .blocklyText {
+  /*
+   * The doodle block label is padded with dots to make it longer.
+   * clip-path makes the dots invisible.
+   */
+  clip-path: inset(0 4px 0 4px);
+}
+g[data-category='doodle-motor'] > .blocklyText {
+  fill: #0078cc;
+}
+g[data-category='doodle-sound'] > .blocklyText {
+  fill: #a239d8;
+}
+g[data-category='doodle-light'] > .blocklyText {
+  fill: #691ff0;
+}
+g[data-category='doodle-control'] > .blocklyText {
+  fill: #e39b00;
+}
+g[data-category='doodle-operators'] > .blocklyText {
+  fill: #00963e;
+}
+g[data-category='doodle-supermonitor'] > .blocklyText {
+  fill: #00877b;
+}
+g[data-category='doodle-any'] > .blocklyText {
+  fill: white;
+}
+g[data-category='doodle-event'] > .blocklyText {
+  fill: #f5c400;
+}
+</style><g xmlns="http://www.w3.org/2000/svg" class="blocklyWorkspace" transform="translate(-342.25,-189.8625030517578)"><g class="blocklyBlockCanvas" transform="translate(429.9999999999999,120.00000000000028) scale(0.675)"><g data-id="-ldKGF1lg0AlQ7nG5XaE" class="blocklyDraggable" data-shapes="hat" data-category="events.extension_name" transform="translate(-130,120)"><path class="blocklyPath blocklyBlockBackground" stroke="#B89A00" fill="#F5C400" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 214.83575439453125 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/><g transform="translate(8, 4) "><use xlink:href="#8502215a3dcc3552ad48305ad2e8928acbbb79b1"/></g><g transform="translate(56, 4) "><line stroke="#D9B100" stroke-linecap="round" x1="0" y1="0" x2="0" y2="36"/></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="72.91787719726562" transform="translate(65, 24) ">when program starts</text><g data-id="+^C%WhM}}D9Y*ItxPcHo" class="blocklyDraggable" data-shapes="c-block c-1 end" data-category="control" transform="translate(0,48)"><path class="blocklyPath blocklyBlockBackground" stroke="#C18401" fill="#FFB515" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 64 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 h -8  a 4,4 0 0,0 -4,4 v 40 a 4,4 0 0,0 4,4 h  8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 156 H 156 a 4,4 0 0,1 4,4 v 24  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"/><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="24.898401260375977" transform="translate(8, 24) ">forever</text><g transform="translate(128, 100) "><use xlink:href="#79a273a4ac09e7e8d6522655e811f9efd838ee5f"/></g><g data-id="}Bh=1Vx,Oj3H|GggEwSy" class="blocklyDraggable blocklySelected" data-shapes="stack" data-category="sound.extension_name" transform="translate(16,48)"><path class="blocklyPath blocklyBlockBackground" stroke="#763696" fill="#BF70E7" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 302.14818572998047 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/><g data-id="=hO5eBv7-5C72idLwK)2" data-shapes="argument round" transform="translate(93.39054107666016,8)"><path class="blocklyPath blocklyBlockBackground" stroke="#763696" fill="#A239D8" fill-opacity="1" d="m 0,0 m 16,0 H 111.36709594726562 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"/><g class="blocklyEditableText" transform="translate(8, 2) " style="cursor: default;"><text class="blocklyText blocklyDropdownText" x="45.68354797363281" y="16" dominant-baseline="middle" dy="0" text-anchor="middle">Cat Meow 1</text><use xlink:href="#189d781ceff9a6638ce5834a5422f86706a0a02c" transform="translate(95.36709594726562,11)"/></g></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="38.69527053833008" transform="translate(8, 24) ">play sound</text><path class="blocklyPath" style="visibility: hidden" d="" fill="#763696"/><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="34.695274353027344" transform="translate(228.75763702392578, 24) ">until done</text></g></g></g></g><g class="blocklyBubbleCanvas" transform="translate(429.9999999999999,120.00000000000028) scale(0.675)"/><defs><image height="40px" width="40px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgaWQ9ImRzbUljb24iPjxnIGlkPSJJY29uLzQ4L3BsYXktYmxvY2stb3V0bGluZWQiIHN0cm9rZS13aWR0aD0iMSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMzUuMzc2IDI0TDEzLjI1IDM4LjM4MlY5LjYxOEwzNS4zNzYgMjR6IiBpZD0iQ29tYmluZWQtU2hhcGUiIHN0cm9rZT0iI0NFQUMwMSIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9IiNGRkZGRkYiLz48L2c+PC9zdmc+" id="8502215a3dcc3552ad48305ad2e8928acbbb79b1"/><image height="24px" width="24px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACG0lEQVRIS+2VT2jTcBzF388FusBou2GaXDap5LaONU4P9jIPgrsZvNSbFtGbbEI68KL1uhRqrz0VbxVk87ab3aW7CMmhDpQdaquQVhhtqYxUa+RXTen6ZyEruy23QPI++b3ve98QnPNFzlkfFwBoqpAArFWAvJLiRn7Q8oks0tRAdi50/wHLLeL7hxeARWLSppHth5wZYIsvrKW7ekfFHMq760OQMwEGxe0vHgVxDRgnPg7iCqBt8a/nlqLrti3jOtQ7yW8SdAdQ+XxQzq76xDXHfh7m7qFV3o+5AyQDMixCU+KjBDG6jZn5mz3Y5ze3cVwr2vd7YEzZFaD/szWV3xGj23f7AXpSABhzVnpWr9vPTgIohRXjii3Ubn7DQeZ6Q4pX/RP3QFP5DSGipISI0tOiRfvxMZOWNqsbpwK0LS4McikFC3UQkh6sP10NbGDxpRh9hylPdxTomE0cZG6g87MZlJ4bpdMBKq8vPf2yTIdlFJJoVQo6LJRA4GemZ69evvZogVt53BOnYrTBR8W3dBclHHeRpvJ6UM4u21HsmA0c1z5135uZjwzF8594bk+KV2+Nyu7QkP9blBciio9beYIpj3dk5luVfRgFlZ7wPRjzYX9yHIespfx+/PIkGNYf84p3vGwgBJYLod2soN0oo3G4S/P+FRZJDG5PR4tOZL0LmpYBKwyCMIA6QHSQP7qk1HYc6wxc/DKdTfoLE3Xa9uFRhksAAAAASUVORK5CYII=" id="79a273a4ac09e7e8d6522655e811f9efd838ee5f"/><image height="12px" width="12px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABZElEQVQoU2NkYGBgUlFR4fn+/TsrGxsby79//5gY0MDv379/s7Gx/REWFv7KqK6uzhsaGioVHR1tKSIiooOuGMT/8uXL42PHjh2vq6t7wKisrCx2/fr1/aysrFrYFCOL1dbWajDKy8tLPnjw4BkhxSD5M2fOhDBKSUmJ3L59ewkXF5c7Pk3/////VFdXZwb2w9SpU82dnZ1349Pw4sWLehMTk6mMIEUgWy5evFghIiJSjE3Tr1+/jqurqwcJCwu/BWswNjZmffPmjcitW7fWsrGxWSJrAjll+fLlrkVFRVdfvnz5FawBBEBOq6ur04yMjNzNyMjIBxN/8OBBoY2NzeKnT5++BYnBNYA40tLSwmfOnMmWkJBoBPG/ffu2U1tbO+HBgwevGRgY/mJoYGBgYFZQUBA9f/58MxcXl3Zzc3PikiVLHj548OAHzEYUG0CCMjIynMzMzAJg0xgZvz948OADsp8AzNN+FkYiwBQAAAAASUVORK5CYII=" id="189d781ceff9a6638ce5834a5422f86706a0a02c"/></defs></g></svg>
